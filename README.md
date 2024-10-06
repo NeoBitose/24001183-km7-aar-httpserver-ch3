@@ -39,14 +39,14 @@ array data mobil.
 
 ## Fitur
 
-- **RESTful API untuk manajemen data mobil tanpa database** :
-  1. GET / akan membuka root endpoint dengan response
+**RESTful API untuk manajemen data mobil tanpa database** :
+  - GET / akan membuka root endpoint dengan response
 {message: “ping successfully”}
-  2. GET /cars akan membuka list cars
-  3. GET /cars/:id akan membuka satu data cars.
-  4. POST /cars akan mengembalikan response data cars yang sudah terbuat.
-  5. PUT /cars/:id akan mengembalikan response data cars yang sudah terupdate.
-  6. DELETE /cars/:id akan mengembalikan response data cars yang sudah terhapus.
+  - GET /cars akan membuka list cars
+  - GET /cars/:id akan membuka satu data cars.
+  - POST /cars akan mengembalikan response data cars yang sudah terbuat.
+  - PUT /cars/:id akan mengembalikan response data cars yang sudah terupdate.
+  - DELETE /cars/:id akan mengembalikan response data cars yang sudah terhapus.
 
 ## Instalasi
 
